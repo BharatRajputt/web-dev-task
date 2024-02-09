@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,400;0,700;1,300;1,400;1,700&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bellota Text', cursive;
+}
+
+.sales-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f2f3f7;
+}
+
+.sales-container {
+    width: 100%;
+    max-width: 750px;
+    margin: 20px; /* Add margin for better spacing on smaller screens */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    text-align: center;
+}
+
+hr {
+    width: 100px;
+    margin: 10px auto;
+}
+
+.sales-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the members on smaller screens */
+}
+
+.sales-team-mem {
+    margin: 8px;
+    flex: 1;
+}
+
+img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%; 
+    cursor: pointer;
+}
+
+.sales-contentBx h4,
+.sales-contentBx p {
+    text-align: center;
+    font-size: 16px;
+    margin: 7px;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .sales-container {
+        padding: 15px; /* Increase padding for better spacing on smaller screens */
+    }
+}
